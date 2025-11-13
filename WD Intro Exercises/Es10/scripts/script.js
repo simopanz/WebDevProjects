@@ -26,7 +26,7 @@ calc.addEventListener("click", () => {
 
     const avarage = gradeSum / numberOfGrades
 
-    // toFixed(n) --> prende n decimali e approssima
+    //.toFixed(n) --> prende n decimali e approssima
     res.textContent = "Media: " + avarage.toFixed(2)
     
     if (avarage >= 6) {
